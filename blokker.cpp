@@ -16,7 +16,7 @@ int main(int argc, char **argv)
     bool state = false;
     
     
-    if( argc != 4 ) { // not enough arguments
+    if( argc != 3 ) { // not enough arguments
     	std::cout << "usage: " << argv[0] << " device state" << std::endl;
     	std::cout << "example: " << argv[0] << " 7 on" << std::endl;
 	    return 0;
